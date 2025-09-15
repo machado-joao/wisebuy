@@ -1,7 +1,7 @@
 export interface Item {
-  id: number;
+  itemId: number;
   name: string;
   quantity: number;
   price: number;
-  inCart: boolean;
+  done: boolean;
 }

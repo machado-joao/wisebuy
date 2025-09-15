@@ -27,7 +27,7 @@ function Modal({ onClose, children }: ModalProps) {
         className="absolute inset-0 bg-gray-900 opacity-50"
         onClick={onClose}
       />
-      <div className="relative w-11/12 max-w-lg bg-white rounded-2xl p-6 shadow-l">
+      <div className="relative w-11/12 max-w-lg rounded-2xl p-6 shadow-l">
         <div className="flex flex-col gap-4">
           <div className="flex-1">{children}</div>
         </div>

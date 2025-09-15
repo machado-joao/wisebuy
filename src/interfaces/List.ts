@@ -5,6 +5,6 @@ export interface List {
   name: string;
   description: string;
   items: Item[];
-  createdAt: Date;
-  updatedAt: Date;
+  createdAt?: Date;
+  updatedAt?: Date;
 }
